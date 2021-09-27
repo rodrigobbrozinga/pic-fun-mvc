@@ -1,0 +1,121 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*Cabeçalho e rodapé*/
+
+.nav-logo {
+	height: 70px;
+	width: 70px;
+}
+
+:target {
+	scroll-margin-top: 100px;
+  }
+
+main {
+	margin-top: 100px;
+}
+
+.img-carrossel {
+	height: 60vh;
+	object-fit: cover;
+}
+
+.fonte-titulo {
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 2px 2px #000000;
+}
+
+footer {
+	text-align: center;
+	background: linear-gradient(#FFFFFF, #FF9E81);
+	padding: 10px 0;
+}
+
+.logo-rodape{
+	display: inline;
+	text-align: center;
+}
+
+.copyright {
+	color: #FF5353;
+	font-size: 13px;
+	margin: 20px 0 0;
+	text-align: center;
+}
+
+/*Página principal*/
+.paisagem{
+	margin: 0 10px;
+
+}
+
+.itens-paisagem{
+	display: inline-block;
+	width: 33%;
+}
+
+.card-largura{
+    max-width: 18rem;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    height: 200px;
+}
+
+.botao-cor-especial {
+    background-color: #FF1717;
+    color: white;
+}
+
+.borda-cor-especial {
+    border-color: #FF1717;
+}
+
+.lista-kids {
+	list-style: disc;
+	margin: 1.5rem;
+}
+
+.lista-kids ::marker {
+	color: #FF1717;
+}
+
+h2{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	margin: 30px 30px;
+	color: #FF5353;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0, 1);
+}
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	margin-left: 1.5rem;
+}
+
+.titulo-modal-contato {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 28px;
+}
+
+p {
+	margin: 0 1.5rem;
+	text-align: justify;
+}
+/*Página Sobre*/
+
+.historia{
+	margin: 30px 30px;
+}
+
+.historia p{
+	font-size: 18px;
+	margin: 0 0 1em;
+}
